@@ -33,6 +33,9 @@ nav ul{
     justify-content: space-between;
     list-style: none;
 }
+nav ul li{
+    padding: 0% 8%;
+}
 nav ul li a {
     margin-left: 3%;
     color: white;
