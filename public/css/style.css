@@ -2,6 +2,13 @@
 body{
     font-family: Montserrat;
 }
+h1,h2,h4{
+    text-align: center;
+    text-transform: uppercase;
+}
+section{
+    padding:5% 20% 5% 20%;
+}
 
 /*------------------------ NAVBAR ----------------------*/
 nav{
@@ -31,7 +38,6 @@ nav ul li a {
 
 /*---------------------- SECTIONINTRO -------------------*/
 #Intro{
-    padding:10% 20% 10% 20%;
     color: white;
     background-color: #DC3545;
 }
@@ -40,10 +46,26 @@ nav ul li a {
 }
 #Intro div{
     display: row;
-    text-align: center;
 }
 h1{
     line-height: 0%;
     font-size: 250%;
-    text-transform: uppercase;
+}
+
+/*---------------------- SECTION INTRO -------------------*/
+#Portfolio{
+    color: #2C3E50;
+    text-align: center;
+}
+#Portfolio>div{
+    display: row ;
+}
+#Portfolio>div>div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:3%;
+}
+#Portfolio>div>div>div>img{
+    width: 90%;
+    border-radius: 2%;
 }
