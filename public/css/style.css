@@ -1,8 +1,9 @@
 /*------------------------ GLOBAL ----------------------*/
 body{
+    margin:0;
     font-family: Montserrat;
 }
-h1,h2,h4{
+h1,h2,h3,h4{
     text-align: center;
     font-weight: bolder;
     text-transform: uppercase;
@@ -12,13 +13,15 @@ section{
 }
 
 /*------------------------ NAVBAR ----------------------*/
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding:0% 20% 0% 20%;
+nav, #FooterBanner{
     color: white;
     background-color: #2C3E50;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding:0% 20% 0% 20%;
+    align-items: center;
 }
 nav>div:first-of-type{
     font-size: large;
@@ -102,4 +105,29 @@ h1{
     border:none;
     border-radius: 5%;
     padding: 2% 3%;
+}
+
+/*------------------------- FOOTER -------------------------*/
+#FooterBanner{
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 20%;
+}
+#FooterBanner>div{
+    display: inline-block;
+    text-align: center;
+}
+#FooterBanner p{
+    line-height: 70%;
+}
+#FooterBanner a{
+    color:turquoise;
+    text-decoration: none;
+}
+#FooterCopyright{
+    display: flex;
+    justify-content: center;
+    font-size: x-small;
+    background-color: #1A252F;
+    color:white;
 }
