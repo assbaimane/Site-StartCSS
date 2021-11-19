@@ -28,3 +28,22 @@ nav ul li a {
     text-decoration: none;
     text-transform: uppercase;
 }
+
+/*---------------------- SECTIONINTRO -------------------*/
+#Intro{
+    padding:10% 20% 10% 20%;
+    color: white;
+    background-color: #DC3545;
+}
+#Intro img{
+    height:30vh;
+}
+#Intro div{
+    display: row;
+    text-align: center;
+}
+h1{
+    line-height: 0%;
+    font-size: 250%;
+    text-transform: uppercase;
+}
