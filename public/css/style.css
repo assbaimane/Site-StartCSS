@@ -1,5 +1,30 @@
 /*------------------------ GLOBAL ----------------------*/
 body{
-    margin:0;
     font-family: Montserrat;
+}
+
+/*------------------------ NAVBAR ----------------------*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0% 20% 0% 20%;
+    color: white;
+    background-color: #2C3E50;
+}
+nav>div:first-of-type{
+    font-size: large;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+nav ul li a {
+    margin-left: 3%;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
 }
