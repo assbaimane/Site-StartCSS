@@ -36,11 +36,13 @@ nav ul li a {
     text-transform: uppercase;
 }
 
-/*---------------------- SECTIONINTRO -------------------*/
-#Intro{
+/*------------------- SECTION INTRO | ABOUT ----------------*/
+#Intro, #About{
+    text-align: center;
     color: white;
     background-color: #DC3545;
 }
+/* intro */
 #Intro img{
     height:30vh;
 }
@@ -51,11 +53,21 @@ h1{
     line-height: 0%;
     font-size: 250%;
 }
+/* about */
+#About>div{
+    display: flex;
+    padding: 0% 15% 0% 15%
+}
+#About>div>div{
+    padding-right: 5%;
+    text-align: left;
+    font-size: medium;
+    font-weight:lighter;
+}
 
-/*---------------------- SECTION INTRO -------------------*/
+/*-------------------- SECTION PORTFOLIO -----------------*/
 #Portfolio{
     color: #2C3E50;
-    text-align: center;
 }
 #Portfolio>div{
     display: row ;
