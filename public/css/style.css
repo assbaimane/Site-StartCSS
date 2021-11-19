@@ -4,6 +4,7 @@ body{
 }
 h1,h2,h4{
     text-align: center;
+    font-weight: bolder;
     text-transform: uppercase;
 }
 section{
@@ -65,10 +66,11 @@ h1{
     font-weight:lighter;
 }
 
-/*-------------------- SECTION PORTFOLIO -----------------*/
-#Portfolio{
+/*---------------- SECTION PORTFOLIO | CONTACT --------------*/
+#Portfolio, #Contact{
     color: #2C3E50;
 }
+/* Portfolio */
 #Portfolio>div{
     display: row ;
 }
@@ -80,4 +82,24 @@ h1{
 #Portfolio>div>div>div>img{
     width: 90%;
     border-radius: 2%;
+}
+/* Contact */
+#Contact>form>div{
+    padding: 3% 0% 3% 0%;
+    color:grey;
+}
+#Contact input, textarea{
+    border:0px solid;
+    border-bottom: 1px solid rgb(241, 241, 241);
+    width:100%;
+}
+#Contact input:focus, textarea:focus {
+    outline:none;
+}
+#Contact button{
+    color:white;
+    background-color:#DC3545;
+    border:none;
+    border-radius: 5%;
+    padding: 2% 3%;
 }
