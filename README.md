@@ -1,6 +1,4 @@
 # Site-StartCSS
-Reproduction du site single-page StartCSS
-
 Reproduction of the single-page StartCSS website
 
 <b>In creating this site I have learned or improved my skills in terms of :</b>
